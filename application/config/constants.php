@@ -87,13 +87,13 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 define('SITE_NAME', 'LIFEOFPIE');
 
-define("ROOTDIR",$_SERVER["DOCUMENT_ROOT"]."/lifeofpie/");
+define("ROOTDIR",$_SERVER["DOCUMENT_ROOT"]);
 
-define('BASEURL', "http://".$_SERVER['HTTP_HOST']."/lifeofpie/");
+define('BASEURL', "http://".$_SERVER['HTTP_HOST']);
 
-define('WEBURL', "http://".$_SERVER['HTTP_HOST']."/lifeofpie/");
+define('WEBURL', "http://".$_SERVER['HTTP_HOST']);
 
-define("PUBLICURL", "http://".$_SERVER["HTTP_HOST"]."/lifeofpie/");
+define("PUBLICURL", "http://".$_SERVER["HTTP_HOST"]);
 
-define("WEBDIR", $_SERVER["DOCUMENT_ROOT"]."/lifeofpie/");
+define("WEBDIR", $_SERVER["DOCUMENT_ROOT"]);
 define("HASH", "LIFEOFPIE");
