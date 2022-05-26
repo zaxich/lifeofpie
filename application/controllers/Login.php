@@ -72,16 +72,8 @@ class Login extends CI_Controller {
 				"date_created"	=> date("Y-m-d H:i:s")
 			);
 			$status         = $this->Crud->insert_data('user', $param);
-
 			if($status){
-				$session = array(
-					'user_email'    => $email,
-					'user_name'    	=> $param->name,
-					'user_id'	=> $param->user_id,
-					'logged_in'     => TRUE
-					);
-				$this->session->set_userdata($session);
-				redirect(base_url("dashboard"));
+				redirect(base_url("login"));
 			}else{
 				$this->session->set_flashdata("errMsgRegis", "<div class=\"alert alert-danger\">Please try again in a few second</div>");
 				$this->session->set_flashdata("txtEmail", $this->input->post('txtEmail') ? $this->input->post('txtEmail') : '');
