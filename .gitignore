@@ -8,7 +8,11 @@ application/logs/*
 
 !application/*/.htaccess
 
+<<<<<<< HEAD
 #composer.lock
+=======
+# composer.lock
+>>>>>>> 12c39dfb85ea0b4ce5e1ed636fe092c43e0c399b
 tests/mocks/database/ci_test.sqlite
 
 user_guide_src/build/*
