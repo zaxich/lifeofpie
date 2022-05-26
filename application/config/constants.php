@@ -89,11 +89,11 @@ define('SITE_NAME', 'LIFEOFPIE');
 
 define("ROOTDIR",$_SERVER["DOCUMENT_ROOT"]);
 
-define('BASEURL', "http://".$_SERVER['HTTP_HOST']);
+define('BASEURL', "https://".$_SERVER['HTTP_HOST']);
 
-define('WEBURL', "http://".$_SERVER['HTTP_HOST']);
+define('WEBURL', "https://".$_SERVER['HTTP_HOST']);
 
-define("PUBLICURL", "http://".$_SERVER["HTTP_HOST"]);
+define("PUBLICURL", "https://".$_SERVER["HTTP_HOST"]);
 
 define("WEBDIR", $_SERVER["DOCUMENT_ROOT"]);
 define("HASH", "LIFEOFPIE");
