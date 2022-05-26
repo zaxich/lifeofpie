@@ -76,8 +76,8 @@ class Login extends CI_Controller {
 			if($status){
 				$session = array(
 					'user_email'    => $email,
-					'user_name'    	=> $status->name,
-					'user_id'		=> $status->user_id,
+					'user_name'    	=> $param->name,
+					'user_id'	=> $param->user_id,
 					'logged_in'     => TRUE
 					);
 				$this->session->set_userdata($session);
